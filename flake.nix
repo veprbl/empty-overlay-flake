@@ -1,5 +1,5 @@
 {
-  outputs = { self, nixpkgs }: {
+  outputs = { self }: {
 
     overlays.default = final: prev: {};
 
